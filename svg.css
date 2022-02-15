@@ -1,0 +1,17 @@
+h1{
+	min-width: 50px !important;
+}
+svg{
+	min-width:100px;
+	width:100vh;
+	max-width: 100%;
+
+	min-height:50px;
+	height: 100vh;
+	max-height: 500px;
+
+	background-color:midnightblue;
+}
+body{
+	text-align:center;
+}

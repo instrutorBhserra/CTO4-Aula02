@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="style.css" media="all">
+	<script>
+		function updateIframe(e) {
+			document.getElementsByTagName("Iframe")[0].src = e.target.value;
+		}
+	</script>
+</head>
+
+<body>
+	<h1>Iframe</h1>
+	<!-- Crie uma página adicionando uma iframe com um video no youtube -->
+	<div class="container" style="flex-direction:column;padding: 10px;">
+		<select id="url" name="Url" onchange="updateIframe(event)">
+			<option value="index.html">Index</option>
+			<option value="listas.html">Listas</option>
+			<option value="Tabelas.html">Tabelas</option>
+			<option value="iframe.html">Iframe</option>
+			<option value="https://ctrlplay.com.br">CtrlPlay</option>
+			<option value="https://google.com">Google.com</option>
+		</select>
+
+
+		<iframe src="index.html" frameborder="0"></iframe>
+
+
+	</div>
+	<footer>
+		<hr>
+		CtrlPlay Bh-Serra
+	</footer>
+</body>
+
+</html>
